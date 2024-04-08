@@ -10,7 +10,7 @@ public class DockerDemoController {
 
 	@GetMapping(value = "value")
 	public String getData() {
-      return "Docker Image Runing";
+      return "Docker Image Runing changes for docker and ci/cd";
 	}
 	
 	
