@@ -9,8 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class DockerDemoController {
 
 	@GetMapping(value = "value")
-	public String getData() {
-      return "Docker Image Runing changes for docker and ci/cd and runinto container of docker";
+	public MyObject getData() {
+		
+		MyObject data = new MyObject();
+		data.setAge(26);
+		data.setCity("Indore");
+		data.setName("Ajay Rajput");
+      return data;
 	}
 	
 }
