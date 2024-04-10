@@ -17,5 +17,4 @@ public class DockerDemoController {
 		data.setName("Ajay Rajput");
       return data;
 	}
-	
 }

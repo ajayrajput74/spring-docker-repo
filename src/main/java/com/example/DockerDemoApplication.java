@@ -14,9 +14,5 @@ public class DockerDemoApplication {
 		System.out.println("testing branch");
 		System.out.println("this is my hello branch");
 		System.out.println("this test demo");
-	
-	
-		
 	}
-
 }
